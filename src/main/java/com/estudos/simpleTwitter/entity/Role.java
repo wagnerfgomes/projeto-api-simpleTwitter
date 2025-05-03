@@ -11,7 +11,7 @@ public class Role {
     @Column(name = "role_id")
     private Long roleId;
 
-    private String roleName;
+    private String name;
 
     public Long getRoleId() {
         return roleId;
@@ -21,12 +21,12 @@ public class Role {
         this.roleId = roleId;
     }
 
-    public String getRoleName() {
-        return roleName;
+    public String getName() {
+        return name;
     }
 
-    public void setRoleName(String roleName) {
-        this.roleName = roleName;
+    public void setName(String roleName) {
+        this.name = roleName;
     }
 
     public enum Values{
