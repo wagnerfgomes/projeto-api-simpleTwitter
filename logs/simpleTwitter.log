@@ -1,0 +1,71 @@
+2025-05-03T19:55:11.496-03:00  INFO 18880 --- [main] c.e.s.SimpleTwitterApplication           : Starting SimpleTwitterApplication using Java 21.0.6 with PID 18880 (C:\work\workspace\projetos\JavaSpringBoot\simpleTwitter\target\classes started by wagne in C:\work\workspace\projetos\JavaSpringBoot\simpleTwitter)
+2025-05-03T19:55:11.501-03:00  INFO 18880 --- [main] c.e.s.SimpleTwitterApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-03T19:55:12.722-03:00  INFO 18880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-03T19:55:12.840-03:00  INFO 18880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 3 JPA repository interfaces.
+2025-05-03T19:55:13.739-03:00  INFO 18880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-03T19:55:13.764-03:00  INFO 18880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-03T19:55:13.764-03:00  INFO 18880 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-03T19:55:13.847-03:00  INFO 18880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-03T19:55:13.848-03:00  INFO 18880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2280 ms
+2025-05-03T19:55:14.105-03:00  INFO 18880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-03T19:55:14.254-03:00  INFO 18880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-03T19:55:14.327-03:00  INFO 18880 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-03T19:55:14.799-03:00  INFO 18880 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-03T19:55:14.849-03:00  INFO 18880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-03T19:55:16.220-03:00  INFO 18880 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@391d28ea
+2025-05-03T19:55:16.223-03:00  INFO 18880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-03T19:55:16.442-03:00  INFO 18880 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-03T19:55:18.273-03:00  INFO 18880 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-03T19:55:18.482-03:00  INFO 18880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-03T19:55:18.975-03:00  WARN 18880 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-03T19:55:19.725-03:00  INFO 18880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-03T19:55:19.737-03:00  INFO 18880 --- [main] c.e.s.SimpleTwitterApplication           : Started SimpleTwitterApplication in 9.01 seconds (process running for 10.085)
+2025-05-03T19:59:46.729-03:00  INFO 18880 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-03T19:59:46.748-03:00  INFO 18880 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-03T19:59:46.764-03:00  INFO 18880 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-03T19:59:46.773-03:00  INFO 18880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-03T19:59:46.849-03:00  INFO 18880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-03T19:59:50.906-03:00  INFO 19132 --- [main] c.e.s.SimpleTwitterApplication           : Starting SimpleTwitterApplication using Java 21.0.6 with PID 19132 (C:\work\workspace\projetos\JavaSpringBoot\simpleTwitter\target\classes started by wagne in C:\work\workspace\projetos\JavaSpringBoot\simpleTwitter)
+2025-05-03T19:59:50.909-03:00  INFO 19132 --- [main] c.e.s.SimpleTwitterApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-03T19:59:51.872-03:00  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-03T19:59:51.970-03:00  INFO 19132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2025-05-03T19:59:52.728-03:00  INFO 19132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-03T19:59:52.747-03:00  INFO 19132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-03T19:59:52.747-03:00  INFO 19132 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-03T19:59:52.808-03:00  INFO 19132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-03T19:59:52.808-03:00  INFO 19132 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1838 ms
+2025-05-03T19:59:52.995-03:00  INFO 19132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-03T19:59:53.085-03:00  INFO 19132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-03T19:59:53.130-03:00  INFO 19132 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-03T19:59:53.495-03:00  INFO 19132 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-03T19:59:53.532-03:00  INFO 19132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-03T19:59:54.044-03:00  INFO 19132 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45424c0
+2025-05-03T19:59:54.045-03:00  INFO 19132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-03T19:59:54.159-03:00  INFO 19132 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-03T19:59:55.308-03:00  INFO 19132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-03T19:59:55.446-03:00  INFO 19132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-03T19:59:55.845-03:00  WARN 19132 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-03T19:59:56.401-03:00  INFO 19132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-03T19:59:56.410-03:00  INFO 19132 --- [main] c.e.s.SimpleTwitterApplication           : Started SimpleTwitterApplication in 6.227 seconds (process running for 7.371)
+2025-05-03T20:00:01.501-03:00  INFO 19132 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-03T20:00:01.501-03:00  INFO 19132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-03T20:00:01.504-03:00  INFO 19132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-03T20:00:35.103-03:00  INFO 19132 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-03T20:00:35.109-03:00  INFO 19132 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-03T20:00:35.114-03:00  INFO 19132 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-03T20:00:35.118-03:00  INFO 19132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-03T20:00:35.135-03:00  INFO 19132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
