@@ -40,6 +40,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(authorize -> authorize
                                         .requestMatchers(HttpMethod.POST, "/user").permitAll()
                                         .requestMatchers(HttpMethod.POST, "/login").permitAll()
+                                        .requestMatchers(HttpMethod.POST, "/tweet").authenticated()
                                         .anyRequest().authenticated())
                 .csrf(csrf -> csrf.disable())
                 .oauth2ResourceServer(
