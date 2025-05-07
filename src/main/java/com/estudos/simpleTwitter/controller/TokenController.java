@@ -2,7 +2,6 @@ package com.estudos.simpleTwitter.controller;
 
 import com.estudos.simpleTwitter.controller.dto.LoginRequest;
 import com.estudos.simpleTwitter.controller.dto.LoginResponse;
-import com.estudos.simpleTwitter.entity.Role;
 import com.estudos.simpleTwitter.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.Instant;
-import java.util.stream.Collectors;
 
 
 @RestController
@@ -51,17 +49,11 @@ public class TokenController {
         var now = Instant.now();
         var expireIn = 3600L;
 
-        var scope = user.get().getRoles()
-                .stream()
-                .map(Role::getName)
-                .collect(Collectors.joining(""));
-
         var claims = JwtClaimsSet.builder()
                 .issuer("simpleTwitter")
                 .subject(user.get().getUserId().toString())
                 .expiresAt(now.plusSeconds(expireIn))
                 .issuedAt(now)
-                .claim("scope", scope)
                 .build();
 
         var jwtValue = jwtEncoder.encode(JwtEncoderParameters.from(claims)).getTokenValue();
